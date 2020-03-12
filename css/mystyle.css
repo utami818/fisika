@@ -1,0 +1,86 @@
+
+html{
+	position:relative;
+}
+.transparent-navbar{ 
+	background-color: rgba(0,0,0,0.8);
+	width:100%;
+}
+.container.navbar-brand:hover{
+	color:red;
+
+}
+
+
+body {
+	background-image:url('../img/fisika2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -100px;
+	margin-bottom:0;
+	margin-top:55px;
+}
+.jumbotron {
+	height:100%;
+/*	background-image:url('../img/fisika3.jpg');
+*/	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -10px;
+	margin-bottom:0;
+	margin-top:50px;
+	color:#eee;
+	overflow:hidden;	
+}	
+.jumbotron img {
+	width:20%;
+	height:20%;
+	box-shadow:1px 1px 10px rgba(0,0,0,0.5);;
+	
+}
+.jumbotron h1, .jumbotron p{
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+.row {
+	text-decoration:none;
+	color: black;
+	text-align:justify;
+	padding-left:15px;
+	padding-right:15px;
+}
+.row .col-sm-9{
+	background-color:rgba(255,255,255,0.8); 
+	height:100%;
+}
+.row .col-sm-3{
+	background-color:lavenderblush; 
+	height:613px;
+}
+
+
+.row img{
+	
+}
+.sinopsis {
+	background-color: white;
+	height:60%;
+}
+.sinopsis p{
+	text-align:justify;
+}
+.login {
+	background-color:rgba(200,200,200,0.8);
+	height:60%;
+	padding-top:10px;
+		
+}
+.daftar {
+	background-color:rgba(200,200,200,0.5);
+	padding-top:10px;
+}
+
+#footer {
+	background-color:rgba(0,0,0,0.8);
+}
+.form_error{
+	color:red;
+}
